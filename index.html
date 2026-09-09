@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy</title>
+    <script>
+        const userLang = navigator.language || navigator.userLanguage;
+        
+        if (userLang.startsWith('ja')) {
+            window.location.replace('./ja.html');
+        } else {
+            window.location.replace('./ko.html');
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
